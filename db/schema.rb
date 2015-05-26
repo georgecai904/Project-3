@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150526035249) do
+ActiveRecord::Schema.define(version: 20150526040412) do
 
   create_table "cities", force: :cascade do |t|
     t.string   "name"
@@ -45,7 +45,7 @@ ActiveRecord::Schema.define(version: 20150526035249) do
   add_index "predictions", ["windDirection_id"], name: "index_predictions_on_windDirection_id"
   add_index "predictions", ["windSpeed_id"], name: "index_predictions_on_windSpeed_id"
 
-  create_table "railfall_predictions", force: :cascade do |t|
+  create_table "rainfall_predictions", force: :cascade do |t|
     t.float    "probability"
     t.float    "value"
     t.integer  "regression_id"
@@ -53,7 +53,7 @@ ActiveRecord::Schema.define(version: 20150526035249) do
     t.datetime "updated_at",    null: false
   end
 
-  add_index "railfall_predictions", ["regression_id"], name: "index_railfall_predictions_on_regression_id"
+  add_index "rainfall_predictions", ["regression_id"], name: "index_rainfall_predictions_on_regression_id"
 
   create_table "rainfalls", force: :cascade do |t|
     t.decimal  "amount"
