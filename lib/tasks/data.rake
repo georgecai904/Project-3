@@ -10,7 +10,7 @@ namespace :data do
 		current_fetch_time -= (current_fetch_time.second).second
 		current_fetch_time -= (current_fetch_time.minute%10).minute
 		fetch = Fetch.new
-		puts 1
+		puts 188
 		fetch.fetchtime = current_fetch_time
 		fetch.save
 		WeatherController.new.retrieve_bom
