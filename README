@@ -1,0 +1,12 @@
+bundle install
+rake db:reset
+#optional—— rake: data:fetch
+#if you prefer not to run the above optional rake command
+#you can just enter the url and wait for the webpage to finish loading
+#however slow loading for the first time
+whenever -i
+#my webpage database gets updated every 02 and 32 minutes in an hour
+#i am not sure if we should update the database every 10 min according to
+#the spec or every 30min from what I saw in the discussion forum
+#so I wrote both in the schedule.rb with one of them not commented out
+rails s

@@ -1,0 +1,31 @@
+<h1>Weathers</h1>
+<table class="table">
+  <thead>
+  <tr>
+    <th>Station</th>
+    <th>Source</th>
+    <th>Time</th>
+    <th>Current Temperature (celsius degree)</th>
+    <th>Dew Temperature (celsius degree)</th>
+    <th>Wind Speed (km/h)</th>
+    <th>Wind Direction</th>
+    <th>Rainfall Amount From 9am (mm)</th>
+    <th colspan="4"></th>
+  </tr>
+  </thead>
+
+  <tbody>
+  <% @data_list.each do |weather| %>
+      <tr>
+        <td><%= weather.station.name %></td>
+        <td><%= weather.source %></td>
+        <td><%= weather.time %></td>
+        <td><%= '%.2f' % weather.temperature.current%></td>
+        <td><%= '%.2f' % weather.temperature.dew %></td>
+        <td><%= '%.2f' % weather.wind.speed %></td>
+        <td><%= weather.wind.direction %></td>
+        <td><%= '%.2f' % weather.rainfall.amount %></td>
+      </tr>
+  <% end %>
+  </tbody>
+</table>

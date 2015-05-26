@@ -1,0 +1,20 @@
+D, [2015-04-22T16:31:02.179027 #29879] DEBUG -- :   [1m[36mStation Load (0.3ms)[0m  [1mSELECT "stations".* FROM "stations"[0m
+E, [2015-04-22T16:31:02.179138 #29879] ERROR -- : SQLite3::SQLException: no such table: stations: SELECT "stations".* FROM "stations"
+D, [2015-04-22T16:41:02.757587 #29977] DEBUG -- :   [1m[36mStation Load (0.3ms)[0m  [1mSELECT "stations".* FROM "stations"[0m
+E, [2015-04-22T16:41:02.757702 #29977] ERROR -- : SQLite3::SQLException: no such table: stations: SELECT "stations".* FROM "stations"
+D, [2015-04-22T16:51:03.103581 #30149] DEBUG -- :   [1m[36mStation Load (0.5ms)[0m  [1mSELECT "stations".* FROM "stations"[0m
+E, [2015-04-22T16:51:03.104137 #30149] ERROR -- : SQLite3::SQLException: no such table: stations: SELECT "stations".* FROM "stations"
+D, [2015-04-22T16:57:02.341465 #30241] DEBUG -- :   [1m[36mStation Load (0.3ms)[0m  [1mSELECT "stations".* FROM "stations"[0m
+E, [2015-04-22T16:57:02.341577 #30241] ERROR -- : SQLite3::SQLException: no such table: stations: SELECT "stations".* FROM "stations"
+D, [2015-04-22T16:58:02.288580 #30319] DEBUG -- :   [1m[36mStation Load (0.3ms)[0m  [1mSELECT "stations".* FROM "stations"[0m
+E, [2015-04-22T16:58:02.288675 #30319] ERROR -- : SQLite3::SQLException: no such table: stations: SELECT "stations".* FROM "stations"
+D, [2015-04-22T16:59:02.360503 #30385] DEBUG -- :   [1m[36mStation Load (0.3ms)[0m  [1mSELECT "stations".* FROM "stations"[0m
+E, [2015-04-22T16:59:02.360611 #30385] ERROR -- : SQLite3::SQLException: no such table: stations: SELECT "stations".* FROM "stations"
+D, [2015-04-22T17:01:02.269329 #30459] DEBUG -- :   [1m[36mStation Load (0.3ms)[0m  [1mSELECT "stations".* FROM "stations"[0m
+E, [2015-04-22T17:01:02.269426 #30459] ERROR -- : SQLite3::SQLException: no such table: stations: SELECT "stations".* FROM "stations"
+D, [2015-04-22T17:02:02.244925 #30533] DEBUG -- :   [1m[36mStation Load (0.3ms)[0m  [1mSELECT "stations".* FROM "stations"[0m
+E, [2015-04-22T17:02:02.245071 #30533] ERROR -- : SQLite3::SQLException: no such table: stations: SELECT "stations".* FROM "stations"
+D, [2015-04-22T17:03:02.303101 #30599] DEBUG -- :   [1m[36mStation Load (0.3ms)[0m  [1mSELECT "stations".* FROM "stations"[0m
+E, [2015-04-22T17:03:02.303217 #30599] ERROR -- : SQLite3::SQLException: no such table: stations: SELECT "stations".* FROM "stations"
+D, [2015-04-22T17:04:02.245534 #30670] DEBUG -- :   [1m[36mStation Load (0.3ms)[0m  [1mSELECT "stations".* FROM "stations"[0m
+E, [2015-04-22T17:04:02.245656 #30670] ERROR -- : SQLite3::SQLException: no such table: stations: SELECT "stations".* FROM "stations"
