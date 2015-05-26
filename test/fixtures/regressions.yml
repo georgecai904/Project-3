@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  expression: MyString
+  variance: 1.5
+  type: 
+  coefficients: MyString
+
+two:
+  expression: MyString
+  variance: 1.5
+  type: 
+  coefficients: MyString

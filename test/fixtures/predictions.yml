@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  time: 2015-05-26 13:52:49
+  longitude: 1.5
+  latitude: 1.5
+  station_id: 
+  temperature_id: 
+  railfallPrediction_id: 
+  windSpeed_id: 
+  windDirection_id: 
+
+two:
+  time: 2015-05-26 13:52:49
+  longitude: 1.5
+  latitude: 1.5
+  station_id: 
+  temperature_id: 
+  railfallPrediction_id: 
+  windSpeed_id: 
+  windDirection_id: 
